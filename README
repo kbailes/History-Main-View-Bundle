@@ -15,13 +15,14 @@ Link to History dialog detail view
 *For additional setup and troubleshooting information, please refer to the Steps Taken document.
 
 ---------- Action Items for Customizations  ----------
-•	There is no out of the box History icon.  Implementors will need to add an icon to the entity page and nav item.
-•	Not all filters have been added to the History entity.  Left for specific customization.
-•	Not all columns have been added to the group grid.  Left for specific customization.
+
+   - There is no out of the box History icon.  Implementors will need to add an icon to the entity page and nav item.
+   - Not all filters have been added to the History entity.  Left for specific customization.
+   - Not all columns have been added to the group grid.  Left for specific customization.
 
 ---------- Known Issues ----------
-•	It may be necessary to retrieve the Activity Type picklist Id from the database and add it to the default group, if it differs from the one currently there.
-•	To maintain join information, the default group should be copied to create a new group, rather than creating a new one.
+   - It may be necessary to retrieve the Activity Type picklist Id from the database and add it to the default group, if it differs from the one currently there.
+   - To maintain join information, the default group should be copied to create a new group, rather than creating a new one.
 
 ---------- Installing the Technical Preview ----------
 To install the technical preview 
@@ -34,6 +35,8 @@ To install the technical preview
 6.	Open the Web Client Login page, login and navigate to the new view via the left nav bar.
 
 ---------- Troubleshooting ----------
-•	If a large amount of data is displayed in the group list, check that the conditions and joins in the group the user is currently viewing matches those outlined in the Steps Taken document.
-•	If the entity link in the group list does not open a dialog, but instead navigates to a detail page, please apply Hotfix 5.  
+
+   - If a large amount of data is displayed in the group list, check that the conditions and joins in the group the user is currently viewing matches those outlined in the Steps Taken document.
+
+   - If the entity link in the group list does not open a dialog, but instead navigates to a detail page, please apply Hotfix 5.  
 
