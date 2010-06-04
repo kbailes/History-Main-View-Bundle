@@ -15,7 +15,6 @@ Link to History dialog detail view
 *For additional setup and troubleshooting information, please refer to the Steps Taken document.
 
 ---------- Action Items for Customizations  ----------
-
    - There is no out of the box History icon.  Implementors will need to add an icon to the entity page and nav item.
    - Not all filters have been added to the History entity.  Left for specific customization.
    - Not all columns have been added to the group grid.  Left for specific customization.
@@ -26,17 +25,15 @@ Link to History dialog detail view
 
 ---------- Installing the Technical Preview ----------
 To install the technical preview 
-1.	Ensure you install this release in a test environment. 
-2.	Back up any customized files that may be affected, or back up the whole project if there are many files.
-3.	Ensure you have Write permissions to the bundle installation folder.
-4.	Install the technical preview bundle using the Application Architect.
+   1. Ensure you install this release in a test environment. 
+   2. Back up any customized files that may be affected, or back up the whole project if there are many files.
+   3. Ensure you have Write permissions to the bundle installation folder.
+   4. Install the technical preview bundle using the Application Architect.
 	* When applying the bundle you can manually merge the hot fix items with your customized items or apply the bundle (overwriting all existing items), and then manually merge the customized items.
-5.  Build and deploy your SalesLogix Web site using the Application Architect Project Explorer.
-6.	Open the Web Client Login page, login and navigate to the new view via the left nav bar.
+   5. Build and deploy your SalesLogix Web site using the Application Architect Project Explorer.
+   6. Open the Web Client Login page, login and navigate to the new view via the left nav bar.
 
 ---------- Troubleshooting ----------
-
    - If a large amount of data is displayed in the group list, check that the conditions and joins in the group the user is currently viewing matches those outlined in the Steps Taken document.
-
    - If the entity link in the group list does not open a dialog, but instead navigates to a detail page, please apply Hotfix 5.  
 
