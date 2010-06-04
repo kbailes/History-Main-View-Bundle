@@ -12,7 +12,7 @@ Additional Required features:
 History type column and filter
 Link to History dialog detail view
 
-*For additional setup and troubleshooting information, please refer to the Steps Take document.
+*For additional setup and troubleshooting information, please refer to the Steps Taken document.
 
 ---------- Action Items for Customizations  ----------
 •	There is no out of the box History icon.  Implementors will need to add an icon to the entity page and nav item.
