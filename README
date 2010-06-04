@@ -1,1 +1,33 @@
-This is a Sage SalesLogix bundle to be applied in the Sage SalesLogix Application Architect.  It provides a full quickform main view for the History entity.  Accompanying documentation details the steps taken to create this main view as well as any additional steps required for customization of the view.  It can be applied to an environment of version 7.5.2.hotfix 5, or above. This bundle is provided As-Is.
+Sage SalesLogix History Main View Technical Preview Readme June 2010
+---------- Disclaimer ----------
+This is a pre-release document. The Technical Preview program provides preview releases of selected Sage SalesLogix products to selected Business Partners and Customers. Those participating in this program agree to install the product and provide feedback to Sage. Users understand that the documentation is in draft format and is not complete. Sage makes no guarantee as to the accuracy of the documentation and accepts no responsibility for problems arising from its use.
+---------- Understanding the History Main View ----------
+This Sage SalesLogix bundle is to be applied in the Sage SalesLogix Application Architect.  It provides a full  quickform main view for the History entity.  Accompanying documentation details the steps taken to create this main view as well as any additional steps required for customization of the view.  It can be applied to an environment of version 7.5.2.hotfix 5, or above.
+The goal was to create a History main view that functions as similar as possible to the Activity main view with all the existing features of a regular mainview present.
+Additional Required features: 
+History type column and filter
+Link to History dialog detail view
+*For additional setup and troubleshooting information, please refer to the Steps Take document.
+
+---------- Action Items for Customizations  ----------
+•	There is no out of the box History icon.  Implementors will need to add an icon to the entity page and nav item.
+•	Not all filters have been added to the History entity.  Left for specific customization.
+•	Not all columns have been added to the group grid.  Left for specific customization.
+
+---------- Known Issues ----------
+•	It may be necessary to retrieve the Activity Type picklist Id from the database and add it to the default group, if it differs from the one currently there.
+•	To maintain join information, the default group should be copied to create a new group, rather than creating a new one.
+---------- Installing the Technical Preview ----------
+To install the technical preview 
+1.	Ensure you install this release in a test environment. 
+2.	Back up any customized files that may be affected, or back up the whole project if there are many files.
+3.	Ensure you have Write permissions to the bundle installation folder.
+4.	Install the technical preview bundle using the Application Architect.
+* When applying the bundle you can manually merge the hot fix items with your customized items or apply the bundle (overwriting all existing items), and then manually merge the customized items.
+Build and deploy your SalesLogix Web site using the Application Architect Project Explorer.
+Open the Web Client Login page, login and navigate to the new view via the left nav bar.
+
+---------- Troubleshooting ----------
+•	If a large amount of data is displayed in the group list, check that the conditions and joins in the group the user is currently viewing matches those outlined in the Steps Taken document.
+•	If the entity link in the group list does not open a dialog, but instead navigates to a detail page, please apply Hotfix 5.  
+
